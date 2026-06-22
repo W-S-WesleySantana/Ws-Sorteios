@@ -40,7 +40,7 @@ p{
 }
 
 
-.primary-input,.secondary-input{
+.input-min,.input-max{
     width: 200px;
     height: 60px;
     border-radius: 14px;
@@ -51,7 +51,7 @@ p{
   
 }
 
-.secondary-input{
+.input-max{
     margin-left: 10px;
 }
 
@@ -72,5 +72,15 @@ button{
 #sortear:hover{
     
     background-color: rgb(95, 15, 15);
+}
+
+#result-box{
+    width: 120px;
+    height: 60px;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    display: none;
 }
  
