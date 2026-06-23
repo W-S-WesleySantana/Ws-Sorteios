@@ -4,6 +4,11 @@ function generateNumber() {
 
     const result = Math.floor(Math.random() * (max - min + 2)) + min;
 
-   alert(result)
+    const inputresult = document.querySelector("#result-box");
+
+    inputresult.value = result;
+
+    inputresult.style.display = "inline-block";
+
 }
 
