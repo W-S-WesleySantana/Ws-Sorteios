@@ -12,3 +12,21 @@ function generateNumber() {
 
 }
 
+function howtouse() {
+
+    const footerText = document.querySelector("#footer")
+
+    footerText.style.display = "inline-block"
+
+}
+
+document.addEventListener("click", function (event) {
+    const footerText = document.querySelector("#footer");
+    const elementoClicado = event.target;
+
+    const clicouNoBotao = elementoClicado.getAttribute("onclick")?.includes("howtouse");
+
+    if (footerText && elementoClicado !== footerText && !footerText.contains(elementoClicado) && !clicouNoBotao) {
+        footerText.style.display = "none";
+    }
+});

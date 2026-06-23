@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
-    rel="stylesheet">
+        rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
 
     <title>Ws Sorteios</title>
@@ -16,14 +16,14 @@
 <body>
 
     <main>
-       <figure class="gif-dados">
-        <img  src="./img/dado.gif" alt="gif dado" width="250">
-        <figcaption class="text-gif">Ws Sorteio</figcaption>
-      
-       </figure>
+        <figure class="gif-dados">
+            <img src="./img/dado.gif" alt="gif dado" width="250">
+            <figcaption class="text-gif">Ws Sorteio</figcaption>
 
-       
-       <input id="result-box" type="number" >
+        </figure>
+
+
+        <input id="result-box" type="number">
 
         <p>Sortea um número</p>
 
@@ -32,7 +32,7 @@
             <input class="input-min" type="number" placeholder="Entre">
 
 
-            <input class="input-max"  type="number" placeholder="e">
+            <input class="input-max" type="number" placeholder="e">
 
 
         </div>
@@ -41,10 +41,35 @@
 
     </main>
 
-  
+    <button onclick="howtouse()" class="how-to-use">Como Usar</button>
+
+    <footer id="footer">
+
+        <h2 class="h2-footer">Como usar o Sorteador</h2>
+
+        <ol>
+            <li>Na primeira caixa, insira um número de início.</li> <br>
+
+            <li>Na segunda caixa, insira até qual número deseja que seja sorteado.</li> <br>
+
+            <li>Clique em "Sortear".</li> <br>
+
+        </ol>
+
+
+        <p class="p-footer">Toda vez que você clicar no botão "Sortear", serão gerados números aleatórios dentro dos parâmetros
+            escolhidos por você.</p>
+
+
+
+
+    </footer>
+
+
 
 
 
 </body>
 <script src="script.js"></script>
+
 </html>
